@@ -1,0 +1,16 @@
+[package]
+name = "ricksay"
+version = "0.1.0"
+authors = ["Robert Koch <robert@kochie.io>"]
+
+[[bin]]
+name = "ricksay"
+path = "src/ricksay/main.rs"
+
+[[bin]]
+name = "mkrick"
+path = "src/mkrick/main.rs"
+
+[dependencies]
+image = "*"
+argparse = "*"
